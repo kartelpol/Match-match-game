@@ -11,7 +11,8 @@ body{
 	min-width: 980px;
 	background-image: url(../img/background.jpg);
 	background-size: cover;
-	
+	background-repeat: no-repeat;
+	background-color: black;
 }
 	
 header{
@@ -29,9 +30,9 @@ form{
 }
 .difficulty-field, .submit, .short-picture, .timer{
 	vertical-align: middle;
-	padding-top: 10px;
+	padding-top: 5px;
 	display: inline-block;
-	width: 25%;
+	width: 30%;
 	height: 100%;
 	margin: 10px;
 	text-align: center;
@@ -40,7 +41,7 @@ form{
 
 .options, .timer span{
 display: inline-block;
-margin: 8px;
+margin: 8px 7px;
 line-height: 30px;
 }
 
