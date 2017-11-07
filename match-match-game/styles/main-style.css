@@ -1,0 +1,102 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	
+}
+
+body{
+	width: 80vw;
+	height: 95vh;
+	max-width: 1500px;
+	min-width: 980px;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	
+}
+	
+header{
+	height: 20%;
+	background-color: white;
+	opacity: 0.9;
+	margin: 10px auto;
+	max-width: 1500px;
+	min-height: 87px;
+	font-size: 20px;
+}
+
+form{
+	width: 100%;
+}
+.difficulty-field, .submit, .short-picture, .timer{
+	vertical-align: middle;
+	padding-top: 10px;
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	margin: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.options, .timer span{
+display: inline-block;
+margin: 8px;
+line-height: 30px;
+}
+
+.timer{
+	border: 1px solid black; 
+	float: right;
+	width: 13%;
+}
+.submit{
+	font-weight: bold;
+	width: 10%;
+	font-size: 20px; 
+	padding-bottom: 5px;
+}
+
+.purple-shorts label, .green-shorts label, .red-shorts label{
+	color: white;
+	padding: 3px; 
+}
+
+.purple-shorts label, .purple{
+	background-color: rgb(47, 12, 58);
+}
+
+.green-shorts label, .green{
+	background-color: rgb(5, 61, 52);
+}
+
+.red-shorts label, .red{
+	background-color: rgb(68, 3, 16);
+}
+
+legend span{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+main{
+	width: 100%;
+	height: 75%;
+	max-width: 1500px;
+	background-color: white;
+	opacity: 0.9;
+}
+
+h1{
+	font-size: 80px;
+	padding-bottom: 30px;
+}
+.about-game{
+	padding-top: 50px;
+	text-align: center;
+	font-size: 25px;
+	color: rgb(0,6,17);
+
+}
+
+

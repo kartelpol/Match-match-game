@@ -1,0 +1,51 @@
+ div#memory_board{
+	background-color: #CCC;
+	border:#999 1px solid;
+	width: 900px;
+	height: 540px;
+	padding: 24px;
+	margin: 0px auto;
+}
+
+.memory_board > div{
+	/* background-image: url(../img/bg1.jpg); 
+	background-repeat: no-repeat;
+	border:#000 1px solid; */
+	width: 50px;
+	height: 71px;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+	font-size: 64px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.memory_board .back{
+	position: absolute;
+	width: 90px;
+	height: 120px;
+	transform: perspective(600px) rotateY(180deg);
+	backface-visibility: hidden;
+	transition: transform .5s linear 0s;
+}
+
+.memory_board .front{
+width: 90px;
+height: 120px;
+position: absolute;
+transform: perspective(600px) rotateY(0deg);
+background-image: url(../img/bg1.jpg); 
+background-repeat: no-repeat;
+backface-visibility: hidden;
+transition: transform .5s linear 0s;
+}
+
+/* .memory_board div:hover .front{
+transform: perspective(500px) rotateY(-180deg);
+}
+
+.memory_board div:hover .back{
+	transform: perspective(500px) rotateY(0deg);
+
+} */
